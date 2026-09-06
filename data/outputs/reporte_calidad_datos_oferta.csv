@@ -1,0 +1,11 @@
+regla,descripcion,filas_evaluadas,filas_marcadas,accion,pct_marcadas
+alcance_geografico,"Filas fuera de ['JUNIN', 'LAMBAYEQUE', 'LORETO']",35471,32020,DROP (fuera del alcance declarado del estudio),0.9027
+coordenadas,NULA,3451,1134,DROP (sin coordenada no se puede rutear),0.3286
+coordenadas,CERO,3451,0,"DROP (coordenada centinela, no es una ubicacion real)",0.0
+coordenadas,FUERA_BBOX,3451,0,DROP (coordenada fuera del territorio peruano),0.0
+coordenadas,INVERTIDA,3451,0,CORREGIDO (swap lat/lon deshecho),0.0
+coordenadas,OK,3451,2317,KEPT (sin problema),0.6714
+codigos_duplicados,"Duplicados en 'COD_IPRESS' (se conserva el activo, luego el primero)",3451,0,"KEPT, con bandera ES_DUPLICADO_DESCARTADO=True en el registro perdedor",0.0
+encoding,Archivo leido como utf-8; caracteres mojibake residuales,3451,1,KEPT con advertencia,0.0003
+punto_fuera_de_distrito_declarado,El punto no cae dentro del poligono del distrito que su registro declara (UBIGEO),2317,467,KEPT con advertencia (posible UBIGEO mal digitado o coordenada imprecisa),0.2016
+punto_sin_poligono_distrital,El punto no cae dentro de NINGUN poligono distrital del pais (fuera de cobertura de la capa de limites),2317,4,KEPT con advertencia,0.0017

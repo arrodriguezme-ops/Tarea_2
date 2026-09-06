@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Extracto OSM de Peru (244 MB, excede el limite de 100 MB de GitHub) --
+# se descarga de Geofabrik, ver README.md.
+data/peru-*.osm.pbf
+
+# Cache de extraccion cruda de la red vial (regenerable desde el .pbf en
+# ~2.5 min al correr data/Fase2_Routing.ipynb; uno de los 3 pickles supera
+# el limite de 100 MB de GitHub).
+data/raw/osm_extract/
+
+# Artefactos auxiliares de compilacion LaTeX (el .pdf si se commitea)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc

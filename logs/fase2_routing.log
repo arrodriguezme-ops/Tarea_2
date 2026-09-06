@@ -1,0 +1,36 @@
+Ejecucion: 2026-09-06 17:28:49.996265
+Tiempo total: 68.3s
+Demanda muestreada: 5000/13358
+
+=== Reporte de snap ===
+departamento            conjunto perfil  n_puntos  n_fallidos  pct_fallidos  dist_snap_media_m
+  LAMBAYEQUE             demanda    car       858           5      0.005828         506.178178
+  LAMBAYEQUE          resolutivo    car        16           0      0.000000          25.616800
+  LAMBAYEQUE    candidatos_I3_I4    car       153           1      0.006536          37.140327
+  LAMBAYEQUE             demanda   foot       858           6      0.006993         496.165397
+  LAMBAYEQUE          resolutivo   foot        16           0      0.000000          18.381321
+  LAMBAYEQUE cualquier_categoria   foot       533           1      0.001876          86.545812
+  LAMBAYEQUE             demanda   bike       858           6      0.006993         496.902827
+  LAMBAYEQUE          resolutivo   bike        16           0      0.000000          25.616800
+       JUNIN             demanda    car      2650          68      0.025660         946.837088
+       JUNIN          resolutivo    car        26           0      0.000000          36.432500
+       JUNIN    candidatos_I3_I4    car       245           1      0.004082          38.848517
+       JUNIN             demanda   foot      2650          59      0.022264         932.613319
+       JUNIN          resolutivo   foot        26           0      0.000000          34.467996
+       JUNIN cualquier_categoria   foot       973          10      0.010277         100.771320
+       JUNIN             demanda   bike      2650          59      0.022264         935.987096
+       JUNIN          resolutivo   bike        26           0      0.000000          36.432500
+      LORETO             demanda    car      1492         953      0.638740        1831.365890
+      LORETO          resolutivo    car        14           0      0.000000          37.725517
+      LORETO    candidatos_I3_I4    car       147          12      0.081633         107.447755
+      LORETO             demanda   foot      1492         488      0.327078        1175.038680
+      LORETO          resolutivo   foot        14           0      0.000000          29.214046
+      LORETO cualquier_categoria   foot       811          81      0.099877         325.802154
+      LORETO             demanda   bike      1492         709      0.475201        1373.133074
+      LORETO          resolutivo   bike        14           0      0.000000          29.214046
+
+=== Factor de detour ===
+departamento  n_pares  factor_detour_mediana  factor_detour_media  factor_detour_p90
+  LAMBAYEQUE    13632               1.194502             1.234207           1.451586
+       JUNIN    66404               1.463514             1.592690           2.133838
+      LORETO      900               1.193955             1.231291           1.442269
